@@ -1,5 +1,5 @@
 {
-  "name": "fileserver",
+  "name": "mdc-sms",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,11 +7,12 @@
     "body-parser": "^1.18.2",
     "chokidar": "^2.0.4",
     "express": "^4.16.2",
-    "modem": "^1.0.3"
+    "modem": "^1.0.3",
+    "sms-gsm": "^0.1.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node smsServer.js"
+    "start": "node smsServer.1.js"
   }
 }
