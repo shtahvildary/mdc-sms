@@ -36,7 +36,7 @@ var open_port = setInterval(() => {
             console.log(status);
         }
     });
-}, 8000);
+}, 3000);
 
 require('chokidar').watch('./dir', {
     ignored: /node_modules|\.git/,
@@ -46,7 +46,7 @@ require('chokidar').watch('./dir', {
     // usePolling: false
   }).on('add', function(event, path) {
     console.log(event, path);
-    m1.sendMsg(00989122005639, "hi", (err, res) => {
+    m1.sendMsg("00989122005639", "hi", (err, res) => {
             if (err) {
                 console.log(err);
             } else {
