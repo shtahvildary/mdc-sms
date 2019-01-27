@@ -1,0 +1,7 @@
+1. https://github.com/paulmillr/chokidar/blob/master/example.js
+2.https://davidwalsh.name/node-watch-file
+3.https://github.com/agathauy/sms-gsm
+4.https://forum.u-blox.com/index.php/14205/how-to-port-the-gsm-module-with-windows-pc-using-c-program
+5.https://social.msdn.microsoft.com/Forums/en-US/84f8691b-7e40-4300-aab6-50b1517acbec/starting-with-a-gsm-modem-application?forum=vssmartdevicesvbcs
+6.http://www.plctalk.net/qanda/archive/index.php/t-2590.html
+7.
