@@ -4,17 +4,16 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "at-commander": "^1.0.0-beta.7",
     "body-parser": "^1.18.2",
     "chokidar": "^2.0.4",
     "express": "^4.16.2",
     "modem": "^1.0.3",
-    "sms-gsm": "^0.1.2",
-    "whatsapp-api": "0.0.1"
+    "request": "^2.88.0",
+    "sms-gsm": "^0.1.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node outputMessenger.js"
+    "start": "node server.js"
   }
 }
