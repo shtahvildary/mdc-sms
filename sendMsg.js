@@ -6,13 +6,13 @@ function sendOutput(message) {
   payload = {
     notify: 1, 
     from: "PRTG",
-    room: "monitoring", 
+    room: "MonitoringMC", 
     message:message
   }
   request.post({
-    url: "http://192.168.1.8:14125/api/notify",
+    url: "http://172.16.16.137:14125/api/notify",
     qs: payload,
-    headers: { "API-KEY": "G3H3E1HEV385M5FU72CUWA414TT6TD45" },
+    headers: { "API-KEY": "UQ4HX65AHR6W8VM68Y86228XX3D784SB" },
   }, function (err, response, body) {
     console.log("error", err)
     console.log("body", body)
