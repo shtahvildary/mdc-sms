@@ -18,21 +18,23 @@ watcher
         addCounter++
         if(name=='update'){
         // if (addCounter > initCount) {
-            console.log('path: ', path);
-            console.log('name: ', name);
-
+            
             var logFile = fs.readFileSync(path, { encoding: "utf-8" })
 
             var log = parseLog(logFile)
-            var message=`Machine ${log.name} : ${log.message}`
+            var message=`Machine ${log.device} : ${log.newStatus}`
+            console.log("message: ",message)
+
             sendMsg.sendOutput(message)
-            smsGsm.sendSms("09122005639", "hi", (err, res) => {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log("message has sent!")
-                }
-            })
+
+            // smsGsm.sendSms("09122005639", "hi", (err, res) => {
+            //     if (err) {
+            //         console.log(err);
+            //     } else {
+            //         console.log("message has sent!")
+            //     }
+            // })
+
             // if you want to send sms uncomment this line:
             // sendMsg.sms(message)
 
@@ -40,8 +42,13 @@ watcher
     })
 
 
-
 function parseLog(log) {
-    console.log('log: ',log)
-    return { name: "test", message: "just for test" }
+var temp=log.slice(log.search("Subject: ")+9)
+   var subject= temp.slice(0,temp.search("\n"))
+    temp=log.slice(log.search("Device: ")+8)
+    var device=temp.slice(0,temp.search(" "))
+    temp=log.slice(log.search("New Status: ")+12)
+    var newStatus=temp.slice(0,temp.search("\n"))
+
+    return{device,newStatus}
 }

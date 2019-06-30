@@ -1,0 +1,105 @@
+Received: from MONITORING_SRV ([172.16.16.120]) by SMTP_SRV.Sima.net with Microsoft SMTPSVC(10.0.17763.1);
+	 Sun, 30 Jun 2019 07:54:23 +0430
+From: "PRTG Network Monitor" <ja_akbari@irib.ir>
+Subject: [PRTG Network Monitor (MONITORING_SRV)] Info_Sima_F01-01 (16.11)
+ WS-C2960S-48TS-L Ping (Ping) Down ESCALATION  (Simulated error (code: PE034))
+To: ja_akbari@irib.ir
+Content-Type: text/plain; charset=utf-8
+MIME-Version: 1.0
+Date: Sun, 30 Jun 2019 07:54:23 +0430
+Priority: urgent
+X-Priority: 1
+X-Mailer: PRTG Network Monitor 17.3.32.2478
+Return-Path: ja_akbari@irib.ir
+Message-ID: <SMTP_SRVv3ySjWrywNI00000a06@SMTP_SRV.Sima.net>
+X-OriginalArrivalTime: 30 Jun 2019 03:24:24.0002 (UTC) FILETIME=[50837220:01D52EF3]
+
+
+=============================================================================
+
+Sensor: Ping (Ping) ***
+http://Monitoring_SRV.Sima.net//sensor.htm?id=13134
+
+New Status: Down ESCALATION 
+
+=============================================================================
+Date/Time: 30.06.2019 07:54:23 (Iran Standard Time)
+Last Result: 
+Last Message: Simulated error (code: PE034)
+=============================================================================
+Probe: Sima Devices Groups
+http://Monitoring_SRV.Sima.net//enode.htm?id=1
+Group: Rack Room Floor 01
+http://Monitoring_SRV.Sima.net//p.htm?id=6499
+Device: Info_Sima_F01-01 (16.11) WS-C2960S-48TS-L (192.168.16.11)
+http://Monitoring_SRV.Sima.net//ce.htm?id=7679
+=============================================================================
+Last Scan: 30.06.2019 07:54:23 [0 s ago]
+Last Up: 30.06.2019 07:52:46 [97 s ago]
+Last Down: 30.06.2019 07:54:23 [0 s ago]
+Uptime: 99.7418% [505 d]
+Downtime: 0.2582% [31 h 25 m]
+Cumulated since: 07.02.2018 08:24:36
+Settings: 
+ Interval: 	60 sec
+ Login (Windows): 	
+
+
+=============================================================================
+Location:
+IRIB
+=============================================================================
+
+History
+
+30.06.2019 07:53:07 Down, Simulated error (code: PE034)
+30.06.2019 07:53:03 Warning, Simulated error (code: PE034)
+18.06.2019 14:17:03 Up, 0 msec
+
+
+
+
+
+
+
+
+=============================================================================
+Links:
+
+Check Now:
+http://Monitoring_SRV.Sima.net//scannow.htm?id=13134&action=0&targeturl=/sensor.htm?id=13134
+
+Acknowledge Alarm...:
+http://Monitoring_SRV.Sima.net//acknowledgealarm.htm?id=13134&ackmsg=Acknowledged+via+email&targeturl=/sensor.htm?id=13134
+
+Pause:
+http://Monitoring_SRV.Sima.net//pause.htm?id=13134&action=0&targeturl=/sensor.htm?id=13134
+
+Pause for 5 minutes:
+http://Monitoring_SRV.Sima.net//pauseobjectfor.htm?id=13134&duration=5&targeturl=/sensor.htm?id=13134
+
+Pause for 60 minutes:
+http://Monitoring_SRV.Sima.net//pauseobjectfor.htm?id=13134&duration=60&targeturl=/sensor.htm?id=13134
+
+Pause for 24 hours:
+http://Monitoring_SRV.Sima.net//pauseobjectfor.htm?id=13134&duration=1440&targeturl=/sensor.htm?id=13134
+
+Resume:
+http://Monitoring_SRV.Sima.net//pause.htm?id=13134&action=1&targeturl=/sensor.htm?id=13134
+=============================================================================
+
+Don't want to receive this email?<Please edit the triggers of this sensor
+http://Monitoring_SRV.Sima.net//sensor.htm?id=13134&tabid=9
+
+or edit your notification settings!
+http://Monitoring_SRV.Sima.net//editnotification.htm?id=301
+
+
+=============================================================================
+E-mail sent to: ja_akbari@irib.ir
+E-mail sent at: 30.06.2019 07:54:23
+E-mail sent by: PRTG Network Monitor (MONITORING_SRV)  (http://Monitoring_SRV.Sima.net//===========================================================================
+PRTG Network Monitor 17.3.32.2478 (c) 1996-2017 Paessler AG (www.paessler.com)
+https://www.paessler.com/prtg
+=============================================================================
+

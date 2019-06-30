@@ -2,7 +2,7 @@ var SerialPort = require("serialport");
 
 var port = '';
 
-port = "COM6"; // as per the modem installed on port
+port = "COM4"; // as per the modem installed on port
 function sendSms(phone, message, callback) {
     var serialPort = new SerialPort(port, {
         baudRate: 38400, dataBits: 8, parity: 'none', stopBits: 1, flowControl: false
@@ -53,7 +53,8 @@ function sendSms(phone, message, callback) {
         serial.write(mymsg);
         serial.write(new Buffer([0x1A]));
         serial.write('ctrl^z');
-        callback("jhygyg")
+        console.log("serial: ",serial)
+        callback("callback")
     }
 }
 module.exports = { sendSms }
